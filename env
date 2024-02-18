@@ -1,0 +1,38 @@
+# Environment variables declared in this file are automatically made available to Prisma.
+# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
+
+# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
+# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
+
+
+
+# ------------------------
+# NextAuth.js Configuration
+# ------------------------
+
+NEXTAUTH_SECRET=forvoM-detho6-vyhmuc
+NEXTAUTH_URL=http://localhost:3000
+
+# ------------------------
+# OAuth Providers
+# ------------------------
+
+GOOGLE_CLIENT_ID=984618054021-6anrttelst446u2m1e0lleof6gjhbv8v.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+# ------------------------
+# Database
+# ------------------------
+
+DATABASE_URL=mysql://ebaiw0aosin05e6av2g7:pscale_pw_26G2fRQ3ENTITHRQDB804fb8sKfDZF0uIdZkfKMzW4y@aws.connect.psdb.cloud/similarity-api-tutorial?sslaccept=strict
+
+# ------------------------
+# OpenAI
+# ------------------------
+OPENAI_API_KEY=
+
+# ------------------------
+# Redis
+# ------------------------
+REDIS_URL=
+REDIS_SECRET=
